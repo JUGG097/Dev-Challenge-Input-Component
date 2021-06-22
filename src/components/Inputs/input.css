@@ -1,0 +1,80 @@
+.default-input > input {
+    padding: 5px 15px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    
+}
+
+.default-input > textarea {
+    padding: 5px 15px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    
+}
+
+.error > input {  
+    border: 1px solid #D32F2F; 
+}
+
+.error > textarea {  
+    border: 1px solid #D32F2F; 
+}
+
+.disabled > input {  
+    background: #F2F2F2;
+    border: 1px solid #E0E0E0;
+}
+
+.disabled > textarea {  
+    background: #F2F2F2;
+    border: 1px solid #E0E0E0;
+}
+
+.md > input {
+    padding: 10px 20px;
+}
+
+.md > textarea {
+    padding: 10px 20px;
+}
+
+.fullWidth > input {
+    width: 100%
+}
+
+.fullWidth > textarea {
+    width: 100%
+}
+
+.default-input  {
+    color: #828282;
+}
+
+.error  {
+    color: #D32F2F;
+}
+
+
+.default-input :hover {
+    border-color:  #333333;
+    color: #333333;
+   
+}
+
+.disabled :hover {
+    border-color:  #E0E0E0;;
+    color: #333333;
+   
+}
+
+.default-input :focus {
+    border-color:  #2962FF;
+    color: #2962FF
+}
+
+.error :focus {
+    border-color:  #D32F2F;
+    color: #D32F2F;
+   
+}
+
